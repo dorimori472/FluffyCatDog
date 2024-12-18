@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Байланысу - Fluffy Cat & Dog</title>
+    <style>
+        body{margin:0;padding:0;font-family:sans-serif;background:#ffe0e6;color:#333;}
+        header{background:#c6ecc6;padding:20px;text-align:center;}
+        header h1{margin:0;font-size:24px;}
+        nav{background:#c6ecc6;display:flex;flex-wrap:wrap;justify-content:center;padding:10px;}
+        nav a{text-decoration:none;color:#333;font-weight:bold;margin:5px 15px;}
+        nav a:hover{text-decoration:underline;}
+        #content{max-width:1200px;margin:20px auto;padding:0 20px;}
+        footer{text-align:center;background:#c6ecc6;padding:20px;margin-top:40px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fluffy Cat & Dog</h1>
+    </header>
+    <nav>
+        <a href="index.html">Басты бет</a>
+        <a href="dogs.html">Иттерге арналған ойыншықтар</a>
+        <a href="cats.html">Мысықтарға арналған ойыншықтар</a>
+        <a href="beds.html">Үйшіктер мен төсектер</a>
+        <a href="bowls.html">Азық салатын ыдыстар</a>
+        <a href="carriers.html">Тасымал</a>
+        <a href="feed.html">Азық</a>
+        <a href="contact.html">Байланысу</a>
+    </nav>
+ 
+    <div class="container my-5">
+    <h2>Байланысу</h2>
+    <form>
+        <!-- Аты-жөні -->
+        <div class="mb-3">
+            <label for="name" class="form-label">Аты-жөніңіз</label>
+            <input type="text" class="form-control" id="name" placeholder="Аты-жөніңізді енгізіңіз">
+        </div>
+        
+        <!-- Электрондық пошта -->
+        <div class="mb-3">
+            <label for="email" class="form-label">Электрондық пошта</label>
+            <input type="email" class="form-control" id="email" placeholder="Электрондық поштаңызды енгізіңіз">
+        </div>
+        
+        <!-- Телефон нөмірі -->
+        <div class="mb-3">
+            <label for="phone" class="form-label">Телефон нөміріңіз</label>
+            <input type="tel" class="form-control" id="phone" placeholder="+7 700 123 45 67">
+        </div>
+        
+        <!-- Жануар түрі -->
+        <div class="mb-3">
+            <label for="animal" class="form-label">Жануар түрі</label>
+            <select class="form-select" id="animal">
+                <option value="dog">Ит</option>
+                <option value="cat">Мысық</option>
+                <option value="other">Басқа</option>
+            </select>
+        </div>
+        
+        <!-- Келу күні -->
+        <div class="mb-3">
+            <label for="visit-date" class="form-label">Келу күні</label>
+            <input type="date" class="form-control" id="visit-date">
+        </div>
+        
+        <!-- Кері байланыс түрі -->
+        <div class="mb-3">
+            <label class="form-label">Кері байланыс түрі</label><br>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="contactType" id="call" value="call">
+                <label class="form-check-label" for="call">Қоңырау</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="contactType" id="email" value="email">
+                <label class="form-check-label" for="email">Электрондық пошта</label>
+            </div>
+        </div>
+        
+        <!-- Хабарлама -->
+        <div class="mb-3">
+            <label for="message" class="form-label">Хабарлама</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Хабарламаңызды жазыңыз"></textarea>
+        </div>
+        
+        <!-- Жіберу батырмасы -->
+        <button type="submit" class="btn btn-primary">Жіберу</button>
+    </form>
+</div
+    <footer>
+        <p>© 2024 Fluffy Cat & Dog. Барлық құқықтар қорғалған.</p>
+    </footer>
+</body>
+</html>

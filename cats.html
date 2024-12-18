@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Мысықтарға арналған ойыншықтар - Fluffy Cat & Dog</title>
+    <style>
+        body {
+            margin:0; padding:0;
+            font-family:sans-serif;
+            background:#ffe0e6;
+            color:#333;
+        }
+        header {
+            background:#c6ecc6;
+            padding:20px;
+            text-align:center;
+        }
+        header h1 {
+            margin:0;
+            font-size:24px;
+        }
+        nav {
+            background:#c6ecc6;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            padding:10px;
+        }
+        nav a {
+            text-decoration:none;
+            color:#333;
+            font-weight:bold;
+            margin:5px 15px;
+        }
+        nav a:hover {
+            text-decoration:underline;
+        }
+        #content {
+            max-width:1200px;
+            margin:20px auto;
+            padding:0 20px;
+        }
+        footer {
+            text-align:center;
+            background:#c6ecc6;
+            padding:20px;
+            margin-top:40px;
+        }
+        .product-list {
+            display:flex;
+            flex-wrap:wrap;
+            gap:20px;
+            margin-bottom:40px;
+        }
+        .product-item {
+            width:calc(25% - 20px);
+            background:#fff;
+            border:1px solid #ccc;
+            border-radius:8px;
+            box-sizing:border-box;
+            padding:10px;
+            text-align:center;
+        }
+        .product-item img {
+            max-width:100%;
+            height:auto;
+            border-radius:4px;
+        }
+        .product-item h3 {
+            font-size:16px;
+            margin:10px 0;
+        }
+        .product-item p {
+            margin:5px 0;
+        }
+        @media (max-width:992px) {
+            .product-item {
+                width:calc(33.333% - 20px);
+            }
+        }
+        @media (max-width:768px) {
+            .product-item {
+                width:calc(50% - 20px);
+            }
+        }
+        @media (max-width:480px) {
+            .product-item {
+                width:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fluffy Cat & Dog</h1>
+    </header>
+    <nav>
+        <a href="index.html">Басты бет</a>
+        <a href="dogs.html">Иттерге арналған ойыншықтар</a>
+        <a href="cats.html">Мысықтарға арналған ойыншықтар</a>
+        <a href="beds.html">Үйшіктер мен төсектер</a>
+        <a href="bowls.html">Азық салатын ыдыстар</a>
+        <a href="carriers.html">Тасымал</a>
+        <a href="feed.html">Азық</a>
+        <a href="contact.html">Байланысу</a>
+    </nav>
+    <div id="content">
+        <h2>Мысықтарға арналған ойыншықтар</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <h3>«Боббин»</h3>
+                <img src="https://amma.pet/media/products/images/2023/06/08/good-1dc3dbd7-f978-11e9-a0dd-00505694cf31.jpg" alt="Боббин">
+                <p>Бағасы: 700 тг</p>
+            </div>
+            <div class="product-item">
+                <h3>Сисал ойыншығы «Доп»</h3>
+                <img src="https://amma.pet/media/products/images/2023/06/08/good-2942aa46-b3ab-11e5-ade2-005056bf744c.jpg" alt="Доп">
+                <p>Бағасы: 500 тг</p>
+            </div>
+            <div class="product-item">
+                <h3>«Тінтуірдегі тышқан»</h3>
+                <img src="https://amma.pet/media/products/images/2023/06/08/good-665a0582-0015-11e8-bc61-0050569459e9.jpg" alt="Тінтуірдегі тышқан">
+                <p>Бағасы: 900 тг</p>
+            </div>
+            <div class="product-item">
+                <h3>"Тышқан"</h3>
+                <img src="https://amma.pet/media/products/images/2023/06/08/good-401606f3-7915-11ec-bbb5-1866da6865b2.jpg" alt="Тышқан">
+                <p>Бағасы: 600 тг</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Fluffy Cat & Dog. Барлық құқықтар қорғалған.</p>
+    </footer>
+</body>
+</html>
